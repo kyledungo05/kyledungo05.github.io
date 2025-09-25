@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Images/Purin.png">
+    <title>Kyle's Website!</title>
+
+    <style>
+        /* A simple reset and basic font styling for the whole page */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* A container to center the content and limit its width on large screens */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Styling for the header and footer for consistency */
+        header, footer {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header {
+            border-bottom: 2px solid #eee; /* Replaced <hr> with a CSS border */
+        }
+        
+        footer {
+            border-top: 2px solid #eee;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+        }
+
+        /* This div will hold the images and center them */
+        .profile-images {
+            display: flex; /* Use flexbox to easily center and space items */
+            justify-content: center;
+            gap: 20px; /* Adds space between the images */
+            margin: 20px 0;
+        }
+
+        /* Styling for the profile images */
+        .profile-images img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover; /* Prevents image from stretching */
+            border-radius: 50%; /* Makes the images circular */
+            border: 4px solid #ddd;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        /* A simple hover effect for the images */
+        .profile-images img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* General styling for links */
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1>Welcome to Kyle's Website!</h1>
+        </header>
+
+        <main>
+            <h2 style="text-align: center;">This is me and my girlfriend!</h2>
+
+            <div class="profile-images">
+                <a href="https://www.facebook.com/mitchelle.kyle.dungo" target="_blank" title="Kyle Dungo's Profile">
+                    <img src="Images/Kyle.jpg" alt="A photo of Kyle Dungo">
+                </a>
+
+                <a href="https://www.facebook.com/wuvjo" target="_blank" title="Joan Piedad's Profile">
+                    <img src="Images/Joan.jpg" alt="A photo of Joan Piedad">
+                </a>
+            </div>
+
+            <p><strong>Kyle Dungo and Joana Piedad are two college students that love each other!</strong></p>
+            <p>This website was created by Kyle Dungo to practice his skills in Web Development and Design.</p>
+            <p>You might see some random stuff going on with this page as this is nothing more than a testing ground.</p>
+            
+            <hr> <h3>My Projects:</h3>
+            <ul>
+                <li><a href="multolyrics.html" target="_blank">Lyrics Page</a></li>
+                <li><a href="form.html" target="_blank">Form Page</a></li>
+            </ul>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Kyle Dungo. All rights reserved.</p>
+            <p>Author: Mitchelle Kyle L. Dungo</p>
+            <p><small><a href="mailto:mitchellekyle05@gmail.com">mitchellekyle05@gmail.com</a></small></p>
+        </footer>
+
+    </div> </body>
+
+</html>
